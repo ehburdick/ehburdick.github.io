@@ -135,6 +135,24 @@ function updateDropdown(option, buttonId) {
 		procedure[option] = 1
 	}
 
+}
+
+function updateDropdownExample(option, buttonId) {
+	$('#' + buttonId).text(option);
+	var buttonColor = "grey"
+	if (option == "No")
+	{
+		buttonColor = "#FF5252";
+	}
+	if (option == "Yes")
+	{
+		buttonColor = "#52FF89";
+	}
+	var buttonObj = document.getElementById(buttonId);
+	buttonObj.style.backgroundColor = buttonColor;
+
+
+
 
 }
 function updateTot(value, buttonId)

@@ -39,13 +39,13 @@
     </div>
 </nav>
 
-<section class="vh-100 gradient-custom-2">
+<section class="vh-100">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-md-12 col-xl-10">
 
-        <div class="card mask-custom">
-          <div class="card-body p-4 text-white">
+        <div class="card mask-custom" style="border-radius: 20px;">
+          <div class="card-body p-4 text-dark">
 
             <div class="text-center pt-3 pb-2">
               <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-todo-list/check1.webp"
@@ -53,10 +53,12 @@
               <h2 class="my-4">Admit OR Day</h2>
             </div>
 
-            <table class="table text-white mb-0">
+            <table class="table text-dark mb-0">
               <thead>
                 <tr>
-                  <th scope="col">Key Tasks</th>
+                  <div class = "text-success">
+                    <th scope="col">Key Tasks</th>
+                  </div>
                 </tr>
               </thead>
               <tbody>
@@ -64,19 +66,19 @@
                   <th>
                     <span class="ms-2">Patient transferred from Emergency Department to inpatient unit.</span>
                   </th>
-                  <td class="align-middle">
+                  <td align="right">
                     <button class="btn btn-lg btn-outline-secondary dropdown-toggle w-100"
-                                                        type="button" id="example" data-toggle="dropdown"
+                                                        type="button" id="example1" data-toggle="dropdown"
                                                         aria-haspopup="true" aria-expanded="false">
                                                         No
                     </button>
-                                                        <div class="dropdown-menu" aria-labelledby="example w-100">
+                                                        <div class="dropdown-menu" aria-labelledby="example1 w-100">
                                                             <a class="dropdown-item"
-                                                                onclick="updateDropdown('Yes', '')"> Yes </a>
+                                                                onclick="updateDropdown('Yes', 'example1')"> Yes </a>
                                                             <a class="dropdown-item"
-                                                                onclick="updateDropdown('No', 'example')"> No </a>
+                                                                onclick="updateDropdown('No', 'example1')"> No </a>
                                                             <a class="dropdown-item"
-                                                                onclick="updateDropdown('N/a', 'example')"> N/a </a>
+                                                                onclick="updateDropdown('N/a', 'example1')"> N/a </a>
 
                                                         </div>
 
@@ -84,70 +86,121 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
-                      alt="avatar 1" style="width: 45px; height: auto;">
-                    <span class="ms-2">Kate Moss</span>
+                    <span class="ms-2">Pre-Operative Tests Obtained
+                      (CBC, BMP, PT/INR, CXR, EKG, etc.)</span>
                   </th>
-                  <td class="align-middle">Make payment to Bluedart</td>
-                  <td class="align-middle">
-                    <h6 class="mb-0"><span class="badge bg-success">Low priority</span></h6>
-                  </td>
-                  <td class="align-middle">
-                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
-                        class="fas fa-check fa-lg text-success me-3"></i></a>
-                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
-                        class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                  <td align="right">
+                    <button class="btn btn-lg btn-outline-secondary dropdown-toggle w-100"
+                                                        type="button" id="example2" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        No
+                    </button>
+                                                        <div class="dropdown-menu" aria-labelledby="example2 w-100">
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('Yes', 'example2')"> Yes </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('No', 'example2')"> No </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('N/a', 'example2')"> N/a </a>
+
+                                                        </div>
+
                   </td>
                 </tr>
+
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
-                      alt="avatar 1" style="width: 45px; height: auto;">
-                    <span class="ms-2">Danny McChain</span>
+                    <span class="ms-2">Medical Consult Obtained</span>
                   </th>
-                  <td class="align-middle">Office rent</td>
-                  <td class="align-middle">
-                    <h6 class="mb-0"><span class="badge bg-warning">Middle priority</span></h6>
-                  </td>
-                  <td class="align-middle">
-                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
-                        class="fas fa-check fa-lg text-success me-3"></i></a>
-                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
-                        class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                  <td align="right">
+                    <button class="btn btn-lg btn-outline-secondary dropdown-toggle w-100"
+                                                        type="button" id="example3" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        No
+                    </button>
+                                                        <div class="dropdown-menu" aria-labelledby="example3 w-100">
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('Yes', 'example3')"> Yes </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('No', 'example3')"> No </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('N/a', 'example3')"> N/a </a>
+
+                                                        </div>
+
                   </td>
                 </tr>
+
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava5-bg.webp"
-                      alt="avatar 1" style="width: 45px; height: auto;">
-                    <span class="ms-2">Alexa Chung</span>
+                    <span class="ms-2">Cardiology Consult Obtained</span>
                   </th>
-                  <td class="align-middle">Office grocery shopping</td>
-                  <td class="align-middle">
-                    <h6 class="mb-0"><span class="badge bg-danger">High priority</span></h6>
-                  </td>
-                  <td class="align-middle">
-                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
-                        class="fas fa-check fa-lg text-success me-3"></i></a>
-                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
-                        class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                  <td align="right">
+                    <button class="btn btn-lg btn-outline-secondary dropdown-toggle w-100"
+                                                        type="button" id="example4" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        No
+                    </button>
+                                                        <div class="dropdown-menu" aria-labelledby="example4 w-100">
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('Yes', 'example4')"> Yes </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('No', 'example4')"> No </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('N/a', 'example4')"> N/a </a>
+
+                                                        </div>
+
                   </td>
                 </tr>
+
                 <tr class="fw-normal">
-                  <th class="border-0">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava6-bg.webp"
-                      alt="avatar 1" style="width: 45px; height: auto;">
-                    <span class="ms-2">Ben Smith</span>
+                  <th>
+                    <span class="ms-2">Anesthesia Pre-Operative Evaluation of
+                      Patient Obtained
+                      Yes </span>
                   </th>
-                  <td class="border-0 align-middle">Ask for Lunch to Clients</td>
-                  <td class="border-0 align-middle">
-                    <h6 class="mb-0"><span class="badge bg-success">Low priority</span></h6>
+                  <td align="right">
+                    <button class="btn btn-lg btn-outline-secondary dropdown-toggle w-100"
+                                                        type="button" id="example5" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        No
+                    </button>
+                                                        <div class="dropdown-menu" aria-labelledby="example5 w-100">
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('Yes', 'example5')"> Yes </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('No', 'example5')"> No </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('N/a', 'example5')"> N/a </a>
+
+                                                        </div>
+
                   </td>
-                  <td class="border-0 align-middle">
-                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
-                        class="fas fa-check fa-lg text-success me-3"></i></a>
-                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
-                        class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                </tr>
+
+                <tr class="fw-normal">
+                  <th>
+                    <span class="ms-2">Social Worker and Case Manager
+                      Evaluation of Patient
+                      Yes </span>
+                  </th>
+                  <td align="right">
+                    <button class="btn btn-lg btn-outline-secondary dropdown-toggle w-100"
+                                                        type="button" id="example6" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        No
+                    </button>
+                                                        <div class="dropdown-menu" aria-labelledby="example6 w-100">
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('Yes', 'example6')"> Yes </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('No', 'example6')"> No </a>
+                                                            <a class="dropdown-item"
+                                                                onclick="updateDropdown('N/a', 'example6')"> N/a </a>
+
+                                                        </div>
+
                   </td>
                 </tr>
               </tbody>
