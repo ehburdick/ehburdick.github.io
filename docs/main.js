@@ -3,6 +3,7 @@ $(document).ready(function(){
 })
 
 //global variables
+	var mrn
 	var ais_head_neck = -1;
 	var ais_chest = -1; 
 	var ais_extrem = -1; 
@@ -34,7 +35,10 @@ $(document).ready(function(){
 	// var total_hip_artho = 0
 	// var peri_orif = 0
 	var procedure = [0,0,0,0,0,0,0]
-
+//gets MRN and stores it in a varible
+function updateMRN(){
+	mrn = document.getElementById("MRN").value;
+}
 //Script for autocalculating age from DOB -->
 
 function updateAge(){
