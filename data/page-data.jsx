@@ -13,8 +13,8 @@ export const personalData = {
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"I thrive in teams, working to create cool inovative products to make the world a better place.",
+		"When I'm not working, I love reading, watching movies and spending time with my friends and family.",
 	],
 };
 
@@ -25,14 +25,12 @@ export const skills = {
 		{ icon: "👥", text: "Collaboration" },
 		{ icon: "⽓", text: "Teamwork" },
 		{ icon: "💡", text: "Creative Problem Solving" },
-		{ icon: "⌛️", text: "Time management" },
 	],
 	hard: [
-		{ icon: "💻", text: "Python" },
-		{ icon: "ʦ", text: "TypeScript" },
+		{ icon: "🐍", text: "Python" },
+		{ icon: "☕️", text: "JavaSript" },
+		{ icon: "☕️", text: "Java"},
 		{ icon: "🚀", text: "React" },
-		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
 		{ icon: "📈", text: "Data Structures and Algorithms" },
 	],
 };
@@ -41,23 +39,10 @@ export const professionalData = {
 	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "Development Team Intern, Medtel.com (2023)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+				"●	Prototyped a website for diagnosing hip replacement candidates using STTGMA, a diagnostic formula to help train doctors (Javascript, HTML/CSS) \n ●	Iterated on product, uplifted it to React.js + Next.js\n●	Built experience with customer research / user interviewing through hands-on practice\n●	Assembled a surgery-component inventory prototype (VBA)",
 			current: true,
-		},
-
-		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
+		}
 	],
 };
