@@ -13,7 +13,7 @@ module.exports = {
       grey: "F3F3F3",
       "grey-light": "FAFAFA",
       "cyan-light": "#89f5f5",
-      white: "#fff",
+      white: "#FFFFFF",
     },
     fontFamily:{
       sans: ["Georgia", "sans-serif"],

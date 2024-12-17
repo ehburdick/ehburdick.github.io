@@ -46,5 +46,10 @@ main h2{
 }
 
 .btn {
-    @apply w-1/2 h-12 bg-grey text-black font-display uppercase text-xl
+    @apply w-1/2 h-12 text-black font-display uppercase text-xl px-8
+    transition ease-in-out hover:text-orange hover:bg-black duration-200;
+}
+
+.skill {
+    @apply bg-cyan-light text-lg py-2 px-4 w-fit rounded-md;
 }

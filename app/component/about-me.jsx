@@ -1,7 +1,8 @@
+"use client"
 import React, {useId} from 'react';
 import Skills from './skills';
 
-export const AboutMe = ({data}) => {
+export const AboutMe = ({data, skills}) => {
   const{title,body} = data; 
   const id = useId() 
   return (
@@ -13,7 +14,7 @@ export const AboutMe = ({data}) => {
                 </p>
         ) )}
        
-       <Skills/>
+       <Skills data = {skills}/>
     </section>
   )
 }
